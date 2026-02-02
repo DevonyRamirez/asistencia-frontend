@@ -1,6 +1,7 @@
 // API Client para comunicación con el backend
-
-const API_BASE_URL = '/api';
+// CAMBIAR ESTA URL POR LA DE TU BACKEND EN VERCEL CUANDO LO TENGAS
+// Ejemplo: const API_BASE_URL = 'https://tu-backend.vercel.app/api';
+const API_BASE_URL = 'https://asistencia-backend-delta.vercel.app/api';
 const API = {
     /**
      * Helper para hacer requests
